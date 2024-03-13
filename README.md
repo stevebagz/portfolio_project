@@ -1,0 +1,1 @@
+A webpage I'm creating as a portfolio project for my Codecademy course.  It'll start with pretty rough edges and over time I will fine tune it and upgrade as I upgrade my knowledge and practical skills.
