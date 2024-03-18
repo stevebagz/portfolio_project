@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve McKinnon: A Personal Portfolio Project</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="script.js"></script> 
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <p><a href="#">Steve McKinnon</a></p>
+            <p><a href="#"><span class="nav-glow">Steve McKinnon</span></a></p>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="bio.html">Bio</a></li>
+                <li><a href="index.html"><span class="nav-glow">Home</span></a></li>
+                <li><a href="projects.html"><span class="nav-glow">Projects</span></a></li>
+                <li><a href="bio.html"><span class="nav-glow">Bio</span></a></li>
             </ul>
         </nav>
     </header>
@@ -29,6 +29,16 @@
                 podcaster</span>.  I created this page to highlight my <span>hard work</span> and <span>progress</span> in 
                 programming field.</p>
         </div>
+    </div>
+    <div class="timer">
+        <p id="countup-timer">
+            <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id))      
+            return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; 
+            pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+            <a data-type="countup" data-id="347791" class="tickcounter" style="display:block; left:0; width:100%; 
+            height:0; position:relative; padding-bottom:25%; margin:0 auto;" title="Time Passed Since I Began My Coding 
+            Journey" href="//www.tickcounter.com/countup">Time Passed Since I Began My Coding Journey</a>
+        </p>
     </div>
     <div class="about-me-container">
         <div class="about-me-description">
@@ -48,5 +58,8 @@
         <a href="https://www.linkedin.com/in/steve-mckinnon-584405290/" target="blank"><img src="images/linkedin-bw.jpeg" 
             alt="LinkedIn icon"></a>
     </div>
+    </div>
 </body>
 </html>
+
+
