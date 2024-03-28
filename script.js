@@ -1,4 +1,4 @@
-var nameText = document.getElementsByClassName("nav-glow");
+/*var nameText = document.getElementsByClassName("nav-glow");
 
 document.addEventListener("DOMContentLoaded", function() {
     for(let i = 0; i < nameText.length; i++) {
@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+*/
 
 
 
